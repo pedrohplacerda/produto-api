@@ -1,7 +1,6 @@
-package com.meli_entrevista.produto_api.handler;
+package com.entrevista.produto_api.handler;
 
-import com.meli_entrevista.produto_api.exception.ProdutoNaoEncontradoException;
-import org.apache.coyote.Response;
+import com.entrevista.produto_api.exception.ProdutoNaoEncontradoException;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.ControllerAdvice;

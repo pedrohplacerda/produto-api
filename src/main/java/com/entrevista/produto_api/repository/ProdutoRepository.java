@@ -1,10 +1,10 @@
-package com.meli_entrevista.produto_api.repository;
+package com.entrevista.produto_api.repository;
 
-import com.meli_entrevista.produto_api.model.Produto;
+import com.entrevista.produto_api.entities.Produto;
 import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
 
-import java.util.List;
-
+@Repository
 public interface ProdutoRepository extends JpaRepository<Produto, Integer> {
     Produto getProdutoById(Integer id);
 }
